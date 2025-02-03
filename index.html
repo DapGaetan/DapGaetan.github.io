@@ -6,16 +6,39 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="" id="city-form">
-        <select name="city" id="city-select">
-            <option value="">-- Sélectionnez une ville --</option>
-            <option value="http://rddv-osartis-smkowl.eolas-services.com/uploads/Document/c1/429_205_Calendrier-2025-Commune-de-Arleux_0.pdf">ville 1</option>
-            <option value="http://rddv-osartis-smkowl.eolas-services.com/uploads/Document/07/428_205_Calendrier-2025-Commune-de-Baralle.pdf">ville 2</option>
-        </select>
-        <button type="submit" onclick="this.form.action = document.getElementById('city-select').value;">
-            Aller
-        </button>
-    </form>
+
+    <style>
+        ul {
+            list-style: none;
+            max-height: 50px;
+            overflow-y: auto;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            margin: 10px 0;
+        }
+        a {
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+        }
+        a:hover {
+            color: red;
+        }
+    </style>
     
+    <ul>
+        <li><a href="http://rddv-osartis-smkowl.eolas-services.com/uploads/Document/c1/429_205_Calendrier-2025-Commune-de-Arleux_0.pdf" target="_blank">Ville 1</a></li>
+        <li><a href="http://rddv-osartis-smkowl.eolas-services.com/uploads/Document/07/428_205_Calendrier-2025-Commune-de-Baralle.pdf" target="_blank">Ville 2</a></li>
+        <li><a href="http://rddv-osartis-smkowl.eolas-services.com/uploads/Document/c1/429_205_Calendrier-2025-Commune-de-Arleux_0.pdf" target="_blank">Ville 1</a></li>
+        <li><a href="http://rddv-osartis-smkowl.eolas-services.com/uploads/Document/07/428_205_Calendrier-2025-Commune-de-Baralle.pdf" target="_blank">Ville 2</a></li>
+        <li><a href="http://rddv-osartis-smkowl.eolas-services.com/uploads/Document/c1/429_205_Calendrier-2025-Commune-de-Arleux_0.pdf" target="_blank">Ville 1</a></li>
+        <li><a href="http://rddv-osartis-smkowl.eolas-services.com/uploads/Document/07/428_205_Calendrier-2025-Commune-de-Baralle.pdf" target="_blank">Ville 2</a></li>
+        <li><a href="http://rddv-osartis-smkowl.eolas-services.com/uploads/Document/c1/429_205_Calendrier-2025-Commune-de-Arleux_0.pdf" target="_blank">Ville 1</a></li>
+        <li><a href="http://rddv-osartis-smkowl.eolas-services.com/uploads/Document/07/428_205_Calendrier-2025-Commune-de-Baralle.pdf" target="_blank">Ville 2</a></li>
+        <li><a href="http://rddv-osartis-smkowl.eolas-services.com/uploads/Document/c1/429_205_Calendrier-2025-Commune-de-Arleux_0.pdf" target="_blank">Ville 1</a></li>
+        <li><a href="http://rddv-osartis-smkowl.eolas-services.com/uploads/Document/07/428_205_Calendrier-2025-Commune-de-Baralle.pdf" target="_blank">Ville 2</a></li>
+    </ul>
 </body>
 </html>
