@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" id="city-form">
+        <select name="city" id="city-select">
+            <option value="">-- Sélectionnez une ville --</option>
+            <option value="http://rddv-osartis-smkowl.eolas-services.com/uploads/Document/c1/429_205_Calendrier-2025-Commune-de-Arleux_0.pdf">ville 1</option>
+            <option value="http://rddv-osartis-smkowl.eolas-services.com/uploads/Document/07/428_205_Calendrier-2025-Commune-de-Baralle.pdf">ville 2</option>
+        </select>
+        <button type="submit" onclick="this.form.action = document.getElementById('city-select').value;">
+            Aller
+        </button>
+    </form>
+    
+</body>
+</html>
